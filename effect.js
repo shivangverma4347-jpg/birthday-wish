@@ -217,7 +217,6 @@ $('document').ready(function() {
                 }
 
             });
-            // body...
         }
 
         msgLoop(1);
