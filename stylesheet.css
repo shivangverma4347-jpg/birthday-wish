@@ -1305,21 +1305,23 @@ audio {
     }
 /* --- ADD THIS CODE AT THE VERY BOTTOM OF YOUR CSS FILE --- */
 
+/* --- REPLACE your old @media query with this one --- */
+
 @media (max-width: 768px) {
   .balloons {
-    /* Original was 100px wide */
-    width: 60px;
+    /* Original was 100px, then 60px. Now 50px. */
+    width: 50px;
     
-    /* Original was 183px high */
-    height: 110px; 
+    /* Original was 183px. This maintains the aspect ratio. */
+    height: 92px; 
     
     /* Match the new width and height */
-    background-size: 60px 110px;
+    background-size: 50px 92px;
   }
 
   .balloons h2 {
-    /* Original was 50px */
-    font-size: 30px; 
+    /* Original was 50px, then 30px. Now 24px. */
+    font-size: 24px; 
   }
 }
 
