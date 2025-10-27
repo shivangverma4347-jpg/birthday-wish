@@ -16,7 +16,7 @@ $('document').ready(function() {
         // --- START OF MOBILE FIX ---
         var bWidth = 100; // Default balloon width for desktop
         if ($(window).width() <= 768) {
-            bWidth = 60; // New balloon width for mobile (matches CSS)
+            bWidth = 50; // New balloon width for mobile (matches CSS)
         }
         // --- END OF MOBILE FIX ---
 
@@ -175,7 +175,7 @@ $('document').ready(function() {
         // --- START OF MOBILE FIX ---
         var bWidth = 100; // Default balloon width for desktop
         if ($(window).width() <= 768) {
-            bWidth = 60; // New balloon width for mobile (matches CSS)
+            bWidth = 50; // New balloon width for mobile (matches CSS)
         }
         // --- END OF MOBILE FIX ---
 
